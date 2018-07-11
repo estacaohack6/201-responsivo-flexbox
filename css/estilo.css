@@ -132,3 +132,23 @@ section{
         margin: 0 10px;
     }
 }
+
+@media (min-width: 1260px){
+    section{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .item{
+        margin: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+        width: 33%;
+        height: calc((80vh - 30px)/2);
+    }
+
+    .item img{
+        height: 200px;
+        width: 200px;
+    }
+}
